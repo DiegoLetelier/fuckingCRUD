@@ -1,0 +1,153 @@
+*{
+ 
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+  background:aquamarine;
+  margin: 0;
+  height: 100%;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+main {
+
+  min-height: calc(100vh - 40px)
+}
+
+/* title styles */
+
+.title {
+  
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title h1{
+    font-weight: 600;
+}
+
+/* form container styles */
+
+.form-container {
+  width: 100%;
+  height: calc(100vh -150px);
+  display: flex;
+  justify-content: center;
+
+}
+
+.form-container form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* form styles, includes form´s title */
+
+.form {
+
+  width: 100%;
+  height: 280px;
+  margin: 15px 15px;
+  background-color: rgba(238, 0, 32, 0.8);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 10px 10px rgba(0,0,0,0.3);
+}
+
+.form h2 {
+  margin-top: 12px;
+  font-weight: 300;
+  font-size: 2em;
+  color:whitesmoke;
+}
+
+/* style labels */
+
+/* style inputs and buttons */
+
+.form input, .form button {
+ width: 60%;
+ padding: 5px;
+ margin: 2px;
+
+}
+
+/* registered list styles */
+
+.registered-container {
+ 
+  width: calc(100%-30px);
+  margin: 15px 15px;
+  padding: 15px 15px;
+  /* height: 8em; */
+  background-color: rgba(14, 8, 9, 0.8);
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 10px 10px rgba(0,0,0,0.3);
+}
+
+.registered h2 {
+  margin-top: 5px;
+  font-weight: 300;
+  font-size: 2em;
+  color:whitesmoke;
+}
+
+.registered-list p {
+ color: rgb(182, 208, 199);
+}
+
+
+/* buttons styles */
+
+.btn {
+  padding: 5px 10px;
+  border: none;
+  margin: 0 5px;
+  color: white;
+  border-radius: 50px;
+
+}
+
+.btn-edit {
+  background-color: green;
+}
+
+.btn-delete {
+  background-color: red;
+
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  text-align: right;
+  padding: 5px;
+}
+
+.footer h3 {
+ margin: 8px;
+}
+
+
